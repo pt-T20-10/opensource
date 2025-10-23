@@ -31,10 +31,3 @@
         }
     }
  }
-
-
- int main(){
-    phuongtrinh_bachai();
-
-    return 0;
-}
