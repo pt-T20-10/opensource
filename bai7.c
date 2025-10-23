@@ -7,7 +7,7 @@ int GiaiThua(int n){
         return n * GiaiThua(n - 1);
 }
 
-void InGiaithua(){
+void InGiaiThua(){
 
     int n, kq;
     printf("Nhap N!: ");

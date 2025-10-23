@@ -1,41 +1,41 @@
 all: main.o bai1.o bai2.o bai3.o bai4.o bai5.o bai6.o bai7.o bai8.o bai9.o bai10.o bai11.o
-<TAB>gcc main.o bai1.o bai2.o bai3.o bai4.o bai5.o bai6.o bai7.o bai8.o bai9.o bai10.o bai11.o -o run.exe -lm
+	gcc main.o bai1.o bai2.o bai3.o bai4.o bai5.o bai6.o bai7.o bai8.o bai9.o bai10.o bai11.o -o run.exe -lm
 
 main.o: main.c mylib.h
-<TAB>gcc -c main.c
+	gcc -c main.c
 
 bai1.o: bai1.c mylib.h
-<TAB>gcc -c bai1.c
+	gcc -c bai1.c
 
 bai2.o: bai2.c mylib.h
-<TAB>gcc -c bai2.c
+	gcc -c bai2.c
 
 bai3.o: bai3.c mylib.h
-<TAB>gcc -c bai3.c -lm
+	gcc -c bai3.c -lm
 
 bai4.o: bai4.c mylib.h
-<TAB>gcc -c bai4.c
+	gcc -c bai4.c
 
 bai5.o: bai5.c mylib.h
-<TAB>gcc -c bai5.c
+	gcc -c bai5.c
 
 bai6.o: bai6.c mylib.h
-<TAB>gcc -c bai6.c
+	gcc -c bai6.c
 
 bai7.o: bai7.c mylib.h
-<TAB>gcc -c bai7.c
+	gcc -c bai7.c
 
 bai8.o: bai8.c mylib.h
-<TAB>gcc -c bai8.c
+	gcc -c bai8.c
 
 bai9.o: bai9.c mylib.h
-<TAB>gcc -c bai9.c
+	gcc -c bai9.c
 
 bai10.o: bai10.c mylib.h
-<TAB>gcc -c bai10.c
+	gcc -c bai10.c
 
 bai11.o: bai11.c mylib.h
-<TAB>gcc -c bai11.c
+	gcc -c bai11.c
 
 clean:
-<TAB>del *.o run.exe
+	del *.o run.exe
