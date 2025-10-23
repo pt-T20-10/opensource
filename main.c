@@ -30,39 +30,39 @@ void menu(){
         menu();
         break;
     case 3:
-        xemthang();
+        phuongtrinh_bachai();
         menu();
         break;
     case 4:
-        namnhuan();
+        diem_tb();
         menu();
         break;
     case 5:
-        xemthang();
+        tinh_tiendien();
         menu();
         break;
     case 6:
-        namnhuan();
+        cuuchuong();
         menu();
         break;
     case 7:
-        xemthang();
+         giaithua();
         menu();
         break;
     case 8:
-        namnhuan();
+        tam_giac_so();
         menu();
         break;
     case 9:
-        xemthang();
+        nhap_so();
         menu();
         break;
     case 10:
-        namnhuan();
+        day_fibonacci();
         menu();
         break;
     case 11:
-        xemthang();
+        tam_giac_sao();
         menu();
         break; 
     default:

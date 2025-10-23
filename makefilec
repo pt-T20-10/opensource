@@ -7,7 +7,7 @@ bai1.o: bai1.c mylib.h
 bai2.o: bai2.c mylib.h
 	gcc -c bai2.c
 bai3.o: bai3.c mylib.h
-	gcc -c bai3.c
+	gcc -c bai3.c -lm
 bai4.o: bai4.c mylib.h
 	gcc -c bai4.c
 bai5.o: bai5.c mylib.h

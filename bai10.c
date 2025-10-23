@@ -27,9 +27,4 @@ void InDayFibonacci() {
     }
 }
 
-int main(){
-    InDayFibonacci();
-    return 0;
-}
-
 
