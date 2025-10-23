@@ -46,7 +46,7 @@ void menu(){
         menu();
         break;
     case 7:
-         giaithua();
+        InGiaiThua();
         menu();
         break;
     case 8:
@@ -58,7 +58,7 @@ void menu(){
         menu();
         break;
     case 10:
-        day_fibonacci();
+        InDayFibonacci();
         menu();
         break;
     case 11:

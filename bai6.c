@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void tin_tiendien(){
+void tinh_tiendien(){
 	int dien, tien;
 
 	printf("Nhap so dien: ");

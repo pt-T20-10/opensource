@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void cuu_chuong(){
+void cuuchuong(){
 	int i, n;
 	printf("Nhap bang cuu chuong: ");
 	scanf("%d",&n);
