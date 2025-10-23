@@ -15,9 +15,3 @@ void tam_giac_sao(){
         printf("\n");
     }
 }
-
-int main(){
-    tam_giac_sao();
-    return 0;
-
-}

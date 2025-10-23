@@ -18,8 +18,3 @@ void nhap_so(){
         }
     }
 }
-
-int main(){
-    nhap_so();
-    return 0;
-}
